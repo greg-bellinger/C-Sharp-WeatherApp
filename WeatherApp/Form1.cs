@@ -8,16 +8,25 @@ namespace WeatherApp
 {
     public partial class Form1 : Form
     {
+        // Init variables to be used by the form //
+        
+        // Create a WeatherService object to interact with the weather API and get the data
         private WeatherService weatherService = new WeatherService();
+
+        // Holds the name/zip code of the city to get weather data for
         private string city;
+
+        // Create a Weather object which contains all the data to be displayed
         private Weather weather;
+
+        // Holds the raw json data for weather exporting
         private string rawJson;
         public Form1()
         {
             // Initializes component and empty vars
             InitializeComponent();
 
-            city = string.Empty;   
+            city = string.Empty;
             rawJson = string.Empty;
             weather = new Weather();
 
@@ -36,11 +45,13 @@ namespace WeatherApp
         // Method gets the weather data in the specified units (imperial/metric)
         private async Task FetchAndDisplayWeatherData()
         {
-            // "city" is the city name input by the user
+            // "city" is the city name/zip input by the user
             city = inputText.Text;
+
             // "unit" the unit selection by the user
             string unit = celciusRadioButton.Checked ? "metric" : "imperial";
 
+            // Checks if a city name/zip has been entered in the inputText text area
             if (string.IsNullOrWhiteSpace(city))
             {
                 return;
@@ -69,6 +80,8 @@ namespace WeatherApp
                 sunsetLabel.Text = $"Sunset: {sunsetTime.ToString("hh:mm tt")}";
 
             }
+            
+            // Displays the error message
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -99,31 +112,6 @@ namespace WeatherApp
 
         }
 
-        private void inputText_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void temperatureLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void humidityLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void descriptionLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         // Method gets the weather data in Imperial units when selected
         private async void fRadioButton_CheckedChanged(object sender, EventArgs e)
         {
@@ -136,11 +124,10 @@ namespace WeatherApp
             await FetchAndDisplayWeatherData();
         }
 
-        // jsonExport_Click creates the Export Form and displays the
-        // dialog box.
+        // jsonExport_Click creates the ExportForm and displays the dialog box.
         private void jsonExport_Click(object sender, EventArgs e)
         {
-            // Check if the weather object is null or if a specific property is not set
+            // Check if the weather object is null or if LocationName is not set
             if (weather == null || string.IsNullOrWhiteSpace(weather.LocationName))
             {
                 // Show a message box asking the user to enter a city/zip
@@ -160,7 +147,6 @@ namespace WeatherApp
         // @Weather weather: the weather object containing the displayed weather information
         // @string city: the city name/zip supplied by the user
         // @string folder: the folder to export the json weather data do
-        // @string rawJson: the complete json data pulled from the weather API
         private void ExportWeatherData(Weather weather, string city, string folder)
         {
             if (weather == null)

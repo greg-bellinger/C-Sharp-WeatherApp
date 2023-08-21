@@ -53,7 +53,6 @@
             inputText.Name = "inputText";
             inputText.Size = new Size(184, 31);
             inputText.TabIndex = 0;
-            inputText.TextChanged += inputText_TextChanged;
             inputText.Enter += inputText_Enter;
             // 
             // submitButton
@@ -74,7 +73,6 @@
             temperatureLabel.Size = new Size(135, 25);
             temperatureLabel.TabIndex = 2;
             temperatureLabel.Text = "Current: ________";
-            temperatureLabel.Click += temperatureLabel_Click;
             // 
             // humidityLabel
             // 
@@ -84,7 +82,6 @@
             humidityLabel.Size = new Size(150, 25);
             humidityLabel.TabIndex = 3;
             humidityLabel.Text = "Humidity: ________";
-            humidityLabel.Click += humidityLabel_Click;
             // 
             // descriptionLabel
             // 
@@ -94,7 +91,6 @@
             descriptionLabel.Size = new Size(142, 25);
             descriptionLabel.TabIndex = 4;
             descriptionLabel.Text = "Outlook: ________";
-            descriptionLabel.Click += descriptionLabel_Click;
             // 
             // celciusRadioButton
             // 
@@ -238,7 +234,6 @@
             Controls.Add(inputText);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

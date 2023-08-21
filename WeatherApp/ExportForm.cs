@@ -13,8 +13,15 @@ namespace WeatherApp
 {
     public partial class ExportForm : Form
     {
+        // Initializes empty variables to be used in the Export Form //
+
+        // The Weather object holds all the weather data displayed on the main GUI
         private Weather weather;
+
+        // The city name/zip input by the user
         private string city;
+
+        // The complete raw json data pulled from the API
         private string rawJson;
 
         // Initializes the ExportForm
