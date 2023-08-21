@@ -10,12 +10,14 @@ namespace WeatherApp
 {
     public class WeatherService
     {
+        // The API key for accessing the OpenWeatherMap API
         private const string apiKey = "c28dc3e330d705d02ea3c70645e4afcf";
         public async Task<(Weather, string)> GetWeather(string city, string unit)
         {
             // Create variable to hold the URL for the weather data
             string url;
 
+            // Condition checks if the user input a zip code or a city name
             if (IsZipCode(city))
             {
                 url = $"http://api.openweathermap.org/data/2.5/weather?zip={city}&appid={apiKey}&units={unit}";
