@@ -1,0 +1,272 @@
+Date and Time: 8/13/2023 12:23:33 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 70.52,
+    "feels_like": 70.09,
+    "temp_min": 67.62,
+    "temp_max": 73,
+    "pressure": 1011,
+    "humidity": 60
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 14.97,
+    "deg": 230
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1691943138,
+  "sys": {
+    "type": 2,
+    "id": 2075535,
+    "country": "GB",
+    "sunrise": 1691901735,
+    "sunset": 1691954929
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}----------------------------------------
+Date and Time: 8/13/2023 12:24:31 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 70.29,
+    "feels_like": 69.84,
+    "temp_min": 67.62,
+    "temp_max": 73.36,
+    "pressure": 1011,
+    "humidity": 60
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 14.97,
+    "deg": 230
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1691943601,
+  "sys": {
+    "type": 2,
+    "id": 2075535,
+    "country": "GB",
+    "sunrise": 1691901735,
+    "sunset": 1691954929
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}----------------------------------------
+Date and Time: 8/13/2023 12:25:58 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 70.29,
+    "feels_like": 69.84,
+    "temp_min": 67.62,
+    "temp_max": 73.36,
+    "pressure": 1011,
+    "humidity": 60
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 14.97,
+    "deg": 230
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1691943601,
+  "sys": {
+    "type": 2,
+    "id": 2075535,
+    "country": "GB",
+    "sunrise": 1691901735,
+    "sunset": 1691954929
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
+
+----------------------------------------
+Date and Time: 8/13/2023 12:26:25 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 70.29,
+    "feels_like": 69.84,
+    "temp_min": 67.62,
+    "temp_max": 73.36,
+    "pressure": 1011,
+    "humidity": 60
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 14.97,
+    "deg": 230
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1691943601,
+  "sys": {
+    "type": 2,
+    "id": 2075535,
+    "country": "GB",
+    "sunrise": 1691901735,
+    "sunset": 1691954929
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
+
+----------------------------------------
+Date and Time: 8/21/2023 12:29:28 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 75.72,
+    "feels_like": 75.58,
+    "temp_min": 71.51,
+    "temp_max": 78.3,
+    "pressure": 1020,
+    "humidity": 55
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 11.5,
+    "deg": 220
+  },
+  "clouds": {
+    "all": 40
+  },
+  "dt": 1692634687,
+  "sys": {
+    "type": 2,
+    "id": 268730,
+    "country": "GB",
+    "sunrise": 1692593702,
+    "sunset": 1692645170
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
+
+----------------------------------------
+Date and Time: 8/21/2023 1:12:51 PM
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 75.13,
+    "feels_like": 74.97,
+    "temp_min": 69.85,
+    "temp_max": 78.15,
+    "pressure": 1020,
+    "humidity": 56
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 9.22,
+    "deg": 220
+  },
+  "clouds": {
+    "all": 20
+  },
+  "dt": 1692637757,
+  "sys": {
+    "type": 2,
+    "id": 268730,
+    "country": "GB",
+    "sunrise": 1692593702,
+    "sunset": 1692645170
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
+
+----------------------------------------
